@@ -18,9 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttonTapped(_ sender: Any) {
         
-        print(textOne.text!)
-        print(textTwo.text!)
-        
+    theWaddup.text = "\(Double(textOne.text!)! + Double(textTwo.text!)!)"
         }
     
     override func viewDidLoad() {
