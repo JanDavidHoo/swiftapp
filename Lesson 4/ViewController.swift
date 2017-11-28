@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
 
-        if tapCount >= 10  {
-            theWaddup.text = "You tapped 10 times"
+        if tapCount >= 20  {
+            theWaddup.text = "You tapped 20 times"
         
         }
        
